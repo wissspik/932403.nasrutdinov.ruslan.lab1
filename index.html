@@ -1,98 +1,160 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Руслан Насрутдинов - волонтер и социальный активист</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        .page-footer {
-            text-align: center;
-            font-size: 0.95rem;
-        }
-    </style>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Портфолио волонтёра Руслана Насрутдинова: текущие акции и роли в команде."
+    />
+    <title>Руслан Насрутдинов — волонтёр и социальный активист</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Перейти к содержимому</a>
+
     <header class="page-header">
+      <div class="header-inner">
         <div>
-            <p class="eyebrow">Лабораторная работа №2</p>
-            <h1>Руслан Насрутдинов</h1>
-            <p>Волонтер и социальный активист</p>
+          <p class="eyebrow">Лабораторная работа №3 · вариант 13</p>
+          <h1>Руслан Насрутдинов</h1>
+          <p class="header-description">Волонтёр и социальный активист</p>
         </div>
-        <img src="images/avatar.svg" alt="Аватар Руслана Насрутдинова" width="160" height="160">
+        <img
+          src="images/avatar.svg"
+          alt="Аватар Руслана Насрутдинова"
+          width="160"
+          height="160"
+        />
+      </div>
     </header>
 
-    <div class="layout">
-        <main class="page-content">
-            <section class="intro">
-                <h2>О себе</h2>
-                <p>
-                    Я был волонтером в школе и работал с детьми с ОВЗ. Вместе с другими
-                    участниками мы готовили для них концерт, чтобы подарить ребятам внимание,
-                    поддержку и хорошее настроение.
-                </p>
-                <p>
-                    В будущем я хотел бы продолжать такие инициативы: организовывать полезные
-                    мероприятия, помогать детским домам и использовать медиаактивность для
-                    социальных проектов. Например, меня вдохновляет пример блогера Бустера,
-                    который помог создать компьютерный класс для детского дома. Я тоже хотел бы
-                    собрать команду, привлечь внимание аудитории и помочь детям получить доступ
-                    к современным компьютерам для учебы и развития.
-                </p>
-            </section>
+    <nav class="main-nav" aria-label="Навигация по странице">
+      <div class="nav-inner">
+        <a href="#actions">Текущие акции</a>
+        <a href="#roles">Роли в команде</a>
+        <a href="#about">О волонтёрстве</a>
+      </div>
+    </nav>
 
-            <section style="margin-bottom: 20px;">
-                <h2>Навыки</h2>
-                <ul>
-                    <li>Организация школьных мероприятий и концертов</li>
-                    <li>Общение и работа с детьми с ОВЗ</li>
-                    <li>Командная работа и распределение задач</li>
-                    <li>Продвижение социальных идей через блог и интернет-площадки</li>
-                </ul>
-            </section>
+    <main id="content">
+      <section id="actions" class="content-section" aria-labelledby="actions-title">
+        <div class="section-heading">
+          <p class="section-kicker">Flexbox</p>
+          <h2 id="actions-title">Текущие акции</h2>
+          <p>
+            Инициативы, в которых важны участие, ответственность и внимание к людям.
+          </p>
+        </div>
 
-            <section id="projects">
-                <h2>Проекты</h2>
-                <ol>
-                    <li>Концерт для детей с ОВЗ в школе</li>
-                    <li>Волонтерская помощь на школьных мероприятиях</li>
-                    <li>Благотворительный сбор техники для детского дома</li>
-                    <li>Проект компьютерного класса для детского дома по примеру блогера Бустера</li>
-                </ol>
-            </section>
-
-            <section>
-                <h2>Обратная связь</h2>
-                <form action="#" method="post">
-                    <label>
-                        Имя
-                        <input type="text" name="name" placeholder="Введите ваше имя">
-                    </label>
-                    <label>
-                        Email
-                        <input type="email" name="email" placeholder="Введите ваш email">
-                    </label>
-                    <label>
-                        Сообщение
-                        <textarea name="message" placeholder="Напишите сообщение"></textarea>
-                    </label>
-                    <button class="submit-button" type="submit">Отправить</button>
-                </form>
-            </section>
-        </main>
-
-        <aside class="sidebar">
-            <h2>Что меня волнует</h2>
+        <div class="campaign-list">
+          <article class="campaign-card">
+            <div class="card-topline">
+              <span class="status status-active">Идёт набор</span>
+              <time datetime="2026-10-12">12 октября 2026</time>
+            </div>
+            <h3>Тёплый концерт</h3>
             <p>
-                Мне важно, чтобы у детей с ОВЗ и ребят из детских домов было больше возможностей
-                для общения, обучения и развития в современной цифровой среде.
+              Подготовка концерта и творческих мастер-классов для детей с ОВЗ.
             </p>
-            <a class="sidebar-link" href="#projects">Перейти к проектам</a>
-        </aside>
-    </div>
+            <dl>
+              <div>
+                <dt>Роль</dt>
+                <dd>Координатор площадки</dd>
+              </div>
+            </dl>
+            <a class="card-link" href="#roles">Выбрать роль<span aria-hidden="true"> →</span></a>
+          </article>
+
+          <article class="campaign-card">
+            <div class="card-topline">
+              <span class="status status-planned">Скоро</span>
+              <time datetime="2026-10-20">20 октября 2026</time>
+            </div>
+            <h3>Техника для знаний</h3>
+            <p>
+              Сбор исправной компьютерной техники для учебного класса в детском доме.
+            </p>
+            <dl>
+              <div>
+                <dt>Роль</dt>
+                <dd>Менеджер сбора</dd>
+              </div>
+            </dl>
+            <a class="card-link" href="#about">Узнать об акции<span aria-hidden="true"> →</span></a>
+          </article>
+
+          <article class="campaign-card">
+            <div class="card-topline">
+              <span class="status status-active">Идёт набор</span>
+              <time datetime="2026-11-05">5 ноября 2026</time>
+            </div>
+            <h3>День добрых дел</h3>
+            <p>
+              Командная помощь в организации городского благотворительного события.
+            </p>
+            <dl>
+              <div>
+                <dt>Роль</dt>
+                <dd>Медиа-волонтёр</dd>
+              </div>
+            </dl>
+            <a class="card-link" href="#roles">Стать участником<span aria-hidden="true"> →</span></a>
+          </article>
+        </div>
+      </section>
+
+      <section id="roles" class="content-section roles-section" aria-labelledby="roles-title">
+        <div class="section-heading">
+          <p class="section-kicker">CSS Grid</p>
+          <h2 id="roles-title">Роли в команде</h2>
+          <p>Три способа включиться в социальную инициативу.</p>
+        </div>
+
+        <div class="roles-grid">
+          <article class="role-card">
+            <span class="role-icon" aria-hidden="true">🤝</span>
+            <h3>Координатор</h3>
+            <p>
+              Собирает участников, распределяет задачи и поддерживает понятный план работы.
+            </p>
+          </article>
+
+          <article class="role-card">
+            <span class="role-icon" aria-hidden="true">📣</span>
+            <h3>Медиа-волонтёр</h3>
+            <p>
+              Рассказывает об акции в социальных сетях, готовит фото, видео и новости.
+            </p>
+          </article>
+
+          <article class="role-card">
+            <span class="role-icon" aria-hidden="true">💛</span>
+            <h3>Наставник</h3>
+            <p>
+              Общается с участниками, помогает детям и создаёт доброжелательную атмосферу.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="content-section about-section" aria-labelledby="about-title">
+        <div>
+          <p class="section-kicker">Продолжение лабораторной №2</p>
+          <h2 id="about-title">Почему это важно</h2>
+        </div>
+        <p>
+          Я был волонтёром в школе и работал с детьми с ОВЗ. Вместе с командой мы
+          готовили для них концерт, чтобы подарить внимание, поддержку и хорошее
+          настроение. В дальнейшем я хочу развивать инициативы для детских домов и
+          помогать детям получать доступ к современной технике для учёбы.
+        </p>
+      </section>
+    </main>
 
     <footer class="page-footer">
-        <p>&copy; 2026 Руслан Насрутдинов</p>
+      <p>© 2026 Руслан Насрутдинов · Лабораторная работа №3</p>
     </footer>
-</body>
+  </body>
 </html>
+
